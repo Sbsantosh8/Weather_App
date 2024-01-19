@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("./joel-cross--zZ60jFNKWI-unsplash.jpg");
+    background-size: cover;
+}
+
+
+.container{
+    height: 100vh;
+    width: 70vw;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+}
+
+.logo-nav{
+    height: 8rem;
+    width: 90%;
+    /* background-color: blueviolet; */
+    background-image: url("./weather-icon-original.svg");
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+   display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+     margin-left: 2.5rem;
+     font-family: 'Kalam', cursive;
+     font-size: large;
+     font-weight: bolder;
+     
+}
+
+#heading{
+    margin-right: 25rem;
+}
+
+.search-nav{
+    
+    
+    margin-top: 3rem;
+}
+
+#inputCity{
+    height: 3rem;
+    width: 50%;
+    /* background-color: aqua; */
+   border-radius: 10px;
+}
+
+#button{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.parameters{
+    height: 40%;
+    width: 75%;
+    /* background-color: aqua; */
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding-top: 4rem;
+   text-align: center;
+   border-radius: 10px;
+   border: 2px solid black;
+   
+}
+
+/* #temperature{ */
+/*  */
+/* } */
+
+#city{
+    margin-top: 1rem;
+}
+
+#humidity{
+    margin-top: 1rem;
+}
